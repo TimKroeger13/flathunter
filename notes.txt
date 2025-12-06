@@ -10,22 +10,9 @@ docker compose up -d
 docker compose logs -f
 
 
-https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten?price=0-1300&livingspace=70-&numberofrooms=4-
+https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten?price=0-1300&livingspace=72-&numberofrooms=3-
 
 
 rm processed_ids.db
 
-
-https://www.immobilienscout24.de/Suche/shape/wohnung-mieten?shape=dV94X0lre3xvQX5uQ29hQXZxQWl6Qnx5SmBjQHxlQ3BtQ3phQWtxQG1hQXl4Rm1wQGNfQl9QeXRBeVZxfEF1a0B7b0BzdEF9dUBnZEZjYEN8TmdzRGBhQ29kSGtiQWdpQXF0QGVQX25CY0FnbUN_XGd_QXRjQXteclttT3tXY31EdWJFe3hBcVZvY0BoYUBrWHR5QWZfQGBqQWRqQWxzQWxoQWRpQXNpQHlKY19Cal9AZUt6d0FuaEFydEFmXmFRbl9DeGFMZmtCbn5HZGpAfnZBO2N1Z2BJb29ncUFkYUB5ZUF4TWduQGt7QG15QGVgQGF7QG9HZUF5U2RfQG1IZF9AeEZkckF0TGRuQHRXflQ.&haspromotion=false&numberofrooms=3.0-&price=0.0-1400.0&livingspace=70.0-&exclusioncriteria=swapflat&minimuminternetspeed=100000&equipment=cellar,balcony&pricetype=calculatedtotalrent&bbox=b354X0ltZnxwQW1oTT8-Z2xYbGhNPw..#/
-
-
-https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten?price=0-1300&livingspace=72-&numberofrooms=3-
-
-
-New:
-https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten?haspromotion=false&numberofrooms=3.0-&price=0.0-1400.0&livingspace=70.0-&exclusioncriteria=swapflat&minimuminternetspeed=100000&equipment=cellar,balcony&pricetype=calculatedtotalrent&geocodes=110000000310,110000001201,110000000311,110000001111,110000000702,110000000406,110000000307,110000000604,110000000605,110000000407,110000000309,110000000101,110000000201,110000000102,110000000103,110000000301,110000000401,110000000104,110000000302,110000000303,110000000105,110000000402,110000000106,110000000304,110000000403,110000000601,110000000305,110000000602,110000000701#/
-
-
-https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten?haspromotion=false&numberofrooms=3.0-&price=0.0-1300.0&livingspace=70.0-&exclusioncriteria=swapflat&minimuminternetspeed=100000&equipment=cellar,balcony&pricetype=calculatedtotalrent&enteredFrom=result_list
-
-
+https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten?haspromotion=false&numberofrooms=4.0-&price=0.0-1400.0&livingspace=70.0-&exclusioncriteria=swapflat&minimuminternetspeed=100000&equipment=cellar,balcony&pricetype=calculatedtotalrent&geocodes=110000000310,110000001201,110000000311,110000001111,110000000702,110000000406,110000000307,110000000604,110000000605,110000000407,110000000309,110000000101,110000000201,110000000102,110000000103,110000000301,110000000401,110000000104,110000000302,110000000303,110000000105,110000000402,110000000106,110000000304,110000000403,110000000601,110000000305,110000000602,110000000701#/

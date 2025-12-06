@@ -33,15 +33,19 @@ class Immobilienscout(Crawler):
         transforms and validates parameters"""
         parsed_url = urlparse(search_url)
         path_elements = parsed_url.path.split("/")
+        _ = parse_qs(parsed_url.query)
 
         real_estate_type = path_elements.pop()
         geocodes = None
         if "radius" in path_elements:
             search_type = "radius"
+        elif "geocodes" in _:
+            search_type = "region"
+            geocodes = _.pop("geocodes")[0]
         else:
             search_type = "region"
             geocodes = "/".join(path_elements[2:])
-        _ = parse_qs(parsed_url.query)
+        
         query_params: dict[str, str | list[str]] = {}
         # split comma-separated query param values into list
         for k in _: # pylint: disable=consider-using-dict-items
